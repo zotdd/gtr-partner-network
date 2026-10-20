@@ -1,0 +1,55 @@
+
+/* V3 — recruitment first, not a duplicate sales storefront */
+.hero{min-height:620px;height:min(80vh,790px)}
+.hero h1{max-width:980px;font-size:clamp(3.15rem,5.3vw,5.9rem)}
+.hero-desc{max-width:710px}
+.hero-trust{display:flex;gap:13px;flex-wrap:wrap;margin-top:29px}
+.hero-trust span{border:1px solid rgba(235,254,242,.32);border-radius:999px;background:rgba(4,23,28,.52);color:#e5f4ed;font-size:.77rem;padding:9px 12px}
+.hero-trust span:before{content:'✓';color:var(--lime);font-weight:800;margin-right:7px}
+.partners-section{padding:95px 0;background:#e4efe9}
+.partners-section .partner-rule{margin-bottom:12px}
+.partner-mini-note{color:#315d59;font-size:.86rem;line-height:1.6;border:1px solid #b8d5c9;border-radius:8px;padding:18px 22px;margin:18px 0 48px}
+.intro{padding:95px 0}
+.contact-section{padding:90px 0;background:#102832}
+.contact-copy .eyebrow{color:#c4ef9c}
+.contact-section .inquiry-form{box-shadow:0 15px 50px #061922aa}
+.products-section{padding-top:105px}
+.package-diagram{display:grid;grid-template-columns:.67fr 1.2fr;gap:30px;margin:28px 0 40px;border:1px solid #cbdadc;border-radius:12px;overflow:hidden;background:#e7eeec}
+.package-copy{padding:30px 16px 30px 32px;align-self:center}
+.package-copy h3{font-size:clamp(1.55rem,2.5vw,2.2rem);margin-bottom:12px}
+.package-copy p{font-size:.9rem;color:#3a535c;line-height:1.65}
+.package-copy .eyebrow{color:#2b6678;font-size:.72rem}
+.package-copy .package-caption{font-size:.77rem;color:#617880;margin:0}
+.package-photo{padding:0;display:flex;align-items:center;justify-content:center;flex-direction:column;border:0;background:#000;color:white;overflow:hidden}
+.package-photo img{width:100%;height:auto;max-height:560px;object-fit:contain;display:block}
+.package-photo span{display:block;color:#bcdde2;padding:10px 15px;font-size:.76rem}
+.comparison-table .brochure-compare{min-width:710px}
+.comparison-table .brochure-compare th,.comparison-table .brochure-compare td{text-align:center}
+.comparison-table .brochure-compare th:first-child,.comparison-table .brochure-compare td:first-child{text-align:left}
+.comparison-table .brochure-compare th:nth-child(2),.comparison-table .brochure-compare td:nth-child(2){background:none;color:#cedee5;font-weight:400}
+.comparison-table .brochure-compare .gtr-column{background:rgba(102,191,255,.15)!important;color:#d6f1ff!important;font-weight:800!important}
+@media(max-width:960px){.navlinks{gap:13px}.navlinks a{font-size:.78rem}.package-diagram{grid-template-columns:1fr}}
+@media(max-width:760px){.hero{height:auto;min-height:610px}.hero h1{font-size:clamp(2.4rem,9vw,3.7rem)}.hero-trust{gap:7px;margin-top:22px}.hero-trust span{font-size:.69rem;padding:7px 10px}.partners-section{padding:70px 0}.package-copy{padding:23px}.hero-inner{padding:125px 0 120px}}
+
+/* V4 — package tiers, independent partner network */
+.pricing-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.pricing-grid .price-card{min-height:345px}
+.pricing-grid .price-amount{font-size:clamp(2.65rem,4.4vw,4.6rem)}
+.full-package{display:grid;grid-template-columns:1fr auto;align-items:center;gap:32px;padding:34px 38px;margin:22px 0 30px;border-radius:14px;background:#0b2834;color:#edf7f8;border:1px solid #2b6b67;box-shadow:0 14px 36px rgba(0,0,0,.08)}
+.full-package .eyebrow{color:#bcff7c;font-size:.79rem;font-weight:800;letter-spacing:.07em;margin-bottom:8px}
+.full-package h3{font-size:clamp(1.5rem,2.4vw,2.35rem);margin:0 0 11px}
+.full-package p{color:#d2e3e5;line-height:1.58;font-size:.91rem;max-width:670px;margin:5px 0}
+.full-package .full-math{color:#bcff7c;font-weight:700;margin-top:14px}
+.full-side{display:flex;flex-direction:column;gap:16px;align-items:flex-end}
+.full-side strong{font-size:clamp(2.5rem,4.8vw,4.6rem);line-height:1;font-weight:900;letter-spacing:-.04em;color:white}
+@media(max-width:760px){.pricing-grid{grid-template-columns:1fr}.full-package{grid-template-columns:1fr;padding:24px;gap:20px}.full-side{align-items:flex-start}.pricing-grid .price-card{min-height:300px}.full-side strong{font-size:3.3rem}}
+
+/* V5: included standard auto-tee component, not an extra-priced option. */
+.included-autotee{display:grid;grid-template-columns:minmax(0,320px) 1fr;gap:32px;align-items:center;background:#eef4f1;border:1px solid #cbdcda;border-radius:12px;margin:26px 0 28px;overflow:hidden}
+.included-autotee-media{background:#030c12;max-height:285px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+.included-autotee-media img{display:block;width:100%;height:285px;object-fit:contain}
+.included-autotee-copy{padding:25px 28px 25px 0}
+.included-autotee-copy .eyebrow{color:#387e91;font-size:.72rem}
+.included-autotee-copy h3{font-size:clamp(1.45rem,2.3vw,2rem);margin:9px 0 12px;color:#102a34;line-height:1.2}
+.included-autotee-copy p:last-child{color:#435c64;font-size:.9rem;line-height:1.7}
+@media (max-width:670px){.included-autotee{grid-template-columns:1fr;gap:0}.included-autotee-media{max-height:250px}.included-autotee-media img{height:250px}.included-autotee-copy{padding:24px}}

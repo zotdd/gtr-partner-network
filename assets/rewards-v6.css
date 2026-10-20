@@ -1,0 +1,49 @@
+/* V6 — cumulative commission tiers, verified distributor role, brochure cards */
+#rewards{scroll-margin-top:95px}
+.rewards-program{margin:52px 0 45px;padding:38px 34px 32px;border:1px solid #add1bb;background:#f7fbf3;border-radius:17px;box-shadow:0 15px 45px rgba(12,57,47,.08);color:#12313b}
+.rewards-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:26px}
+.rewards-heading .eyebrow{color:#3d7b83;font-size:.72rem;margin-bottom:13px}
+.rewards-heading h3{font-size:clamp(1.7rem,3vw,2.9rem);max-width:735px;line-height:1.18;margin:0 0 17px;font-weight:800;letter-spacing:-.04em}
+.rewards-heading .rewards-subtitle{margin:0;max-width:860px;color:#4b6868;font-size:.95rem}
+.reward-cta{display:inline-flex;gap:12px;flex-shrink:0;align-items:center;justify-content:center;padding:13px 18px;color:#123025;background:#c4ef9c;border:1px solid #a7da77;border-radius:8px;font-weight:800;font-size:.8rem;transition:transform .15s ease}
+.reward-cta:hover{transform:translateY(-2px)}
+.rewards-highlight{display:flex;align-items:center;gap:27px;margin:29px 0 10px;padding:20px 23px;background:#102b35;color:#d7edf0;border-radius:12px}
+.rewards-highlight>div:not(.reward-arrow){display:flex;flex-direction:column;gap:4px}
+.rewards-highlight span{font-size:.75rem;color:#b4cfd2;letter-spacing:.015em}
+.rewards-highlight strong{font-size:clamp(2.4rem,5vw,4rem);font-weight:800;color:#d4ff9a;line-height:1.05;letter-spacing:-.06em}
+.rewards-highlight .reward-arrow{font-size:2rem;color:#7dabb3}
+.rewards-highlight .reward-36{margin-left:auto;border-left:1px solid #3d5d60;padding-left:22px}
+.rewards-highlight .reward-36 strong{color:white}
+.rewards-staircase{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));align-items:end;gap:9px;min-height:170px;margin:20px 0 17px}
+.rewards-staircase .tier{height:fit-content;min-width:0;display:flex;flex-direction:column;justify-content:end;gap:8px;position:relative;padding:10px 9px 0;text-align:center}
+.rewards-staircase .tier span{font-size:.7rem;letter-spacing:0;color:#57777d;font-weight:750;overflow-wrap:anywhere}
+.rewards-staircase .tier strong{font-size:clamp(1.25rem,2.1vw,2rem);font-weight:900;color:#134254;line-height:1}
+.rewards-staircase .tier-fill{width:100%;background:linear-gradient(160deg,#2a7280,#153949);border-radius:5px 5px 0 0}
+.rewards-staircase .tier-10 .tier-fill{height:47px}.rewards-staircase .tier-11 .tier-fill{height:59px}.rewards-staircase .tier-12 .tier-fill{height:71px}.rewards-staircase .tier-13 .tier-fill{height:83px}.rewards-staircase .tier-14 .tier-fill{height:95px}.rewards-staircase .tier-15 .tier-fill{height:107px;background:linear-gradient(170deg,#d1ff91,#64bb85)}
+.rewards-staircase .tier-15 strong{color:#167b50}
+.rewards-notes{display:grid;grid-template-columns:1fr 1fr;gap:20px;border-top:1px solid #d3dfd4;padding-top:20px}
+.rewards-notes p{font-size:.81rem;line-height:1.65;color:#55706e;margin:0}
+.reward-details{border:1px solid #cbdcd6;margin-top:20px;border-radius:7px;background:#e9f3ec}
+.reward-details summary{cursor:pointer;font-size:.88rem;font-weight:800;padding:15px 16px;list-style-position:inside;color:#1e525c}
+.reward-details[open] p{padding:0 19px 17px;font-size:.85rem;line-height:1.75;color:#456368;margin:0}
+.rewards-disclaimer{font-size:.73rem;line-height:1.65;color:#607b78;margin:16px 2px 0}
+.operator-support{display:grid;grid-template-columns:.9fr 1.15fr;gap:35px;padding:28px 30px;margin:30px 0 52px;border:1px solid #c4d8cf;background:#eef5ef;border-radius:12px}
+.operator-intro .eyebrow{font-size:.65rem;color:#527c7f;margin-bottom:9px}.operator-intro h3{font-size:clamp(1.25rem,2.2vw,1.82rem);line-height:1.26;margin-bottom:12px}.operator-intro p{font-size:.81rem;color:#526d6c;margin:0}
+.operator-points{display:grid;grid-template-columns:1fr 1fr;gap:12px;align-items:stretch}.operator-points>div{padding:20px;background:#fff;border:1px solid #d7e4df;border-radius:10px;display:flex;flex-direction:column}.operator-points strong{font-size:.92rem}.operator-points p{color:#667e80;font-size:.8rem;line-height:1.65;flex:1;margin:8px 0}.operator-points a{color:#186e79;font-weight:800;font-size:.83rem;text-decoration:underline;text-underline-offset:3px}
+.vietnam-courses{display:grid;grid-template-columns:1fr 260px;gap:24px;align-items:center;background:#10333e;border:1px solid #2f7381;border-radius:14px;color:#eaf8f2;padding:29px 34px;margin:35px 0}
+.vietnam-courses .course-tag{font-size:.72rem;letter-spacing:.15em;color:#b9ea96;font-weight:800}
+.vietnam-courses h3{font-size:clamp(1.4rem,2.6vw,2.1rem);margin:11px 0 10px}.vietnam-courses p{font-size:.87rem;color:#bdd3d5;margin:0;max-width:780px}
+.course-art{display:flex;justify-content:center;align-items:center;flex-direction:column;gap:5px;min-height:163px;border:1px solid #426b6d;border-radius:9px;background:radial-gradient(ellipse at 60% 40%,#245d4d 0,#143b3f 36%,#09212c 100%)}
+.course-art span{letter-spacing:.27em;color:#9bd6b9;font-size:.65rem}.course-art strong{font-size:3rem;letter-spacing:-.07em}.course-art small{font-size:.72rem;color:#bad5d8}
+.brochure-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:38px;align-items:stretch}
+.brochure-card{position:relative;padding:26px 23px 23px;border:1px solid #244753;border-radius:16px;background:linear-gradient(145deg,#073042,#02212b 70%,#007898);box-shadow:0 10px 30px #00152233;color:#f1fbff}
+.brochure-card .brochure-name{font-size:1.1rem;color:#c4d8df;font-weight:550;letter-spacing:.01em}
+.brochure-card .brochure-price{font-size:clamp(2.15rem,3.7vw,3.5rem);line-height:1.12;font-weight:850;letter-spacing:-.055em;color:white;margin:9px 0 7px}
+.brochure-card .brochure-local{font-weight:800;font-size:.9rem;padding-bottom:18px;border-bottom:1px solid #c0f4ee47;color:#eff9f3}
+.brochure-card ul{list-style:none;margin:0;padding:5px 0 0}.brochure-card li{margin:0;border-bottom:1px solid #e4faff24;padding:15px 0;font-size:.83rem;line-height:1.6;color:#d8e9eb}.brochure-card li:last-child{border-bottom:0}
+.brochure-card.our-card{background:linear-gradient(150deg,#004455,#063542 57%,#0180b4);border:2px solid #61c8d2;transform:translateY(-14px);box-shadow:0 18px 45px #0b171a75}
+.brochure-featured{display:inline-block;color:#092d2b;background:#c4ef9c;padding:5px 10px;font-size:.65rem;font-weight:850;letter-spacing:.1em;border-radius:3px;margin-bottom:12px}
+.comparison-section .compare-disclaimer{margin-top:25px;max-width:1070px}
+@media(max-width:1050px){.rewards-heading{align-items:start}.brochure-cards{gap:9px}.brochure-card{padding:23px 17px}.operator-support{grid-template-columns:1fr}.navlinks{gap:10px!important}.navlinks a{font-size:.74rem!important}}
+@media(max-width:760px){.rewards-program{padding:27px 20px;margin-top:32px}.rewards-heading{flex-direction:column}.reward-cta{align-self:flex-start}.rewards-highlight{gap:16px;flex-wrap:wrap}.rewards-highlight .reward-36{margin-left:0}.rewards-staircase{gap:4px;margin-left:-5px;margin-right:-5px}.rewards-staircase .tier{padding-left:1px;padding-right:1px}.rewards-staircase .tier span{font-size:.63rem}.rewards-staircase .tier strong{font-size:1.3rem}.rewards-notes{grid-template-columns:1fr;gap:12px}.operator-support{padding:21px}.brochure-cards{grid-template-columns:1fr}.brochure-card.our-card{transform:none;order:-1}.brochure-card .brochure-price{font-size:2.65rem}.vietnam-courses{grid-template-columns:1fr;padding:25px}.course-art{min-height:105px}.rewards-highlight strong{font-size:2.7rem}}
+@media(max-width:460px){.operator-points{grid-template-columns:1fr}.rewards-staircase{overflow:visible}.rewards-staircase .tier strong{font-size:1.03rem}.rewards-staircase .tier span{font-size:.55rem}.reward-arrow{display:none}.rewards-highlight .reward-36{border-left:0;padding-left:0;border-top:1px solid #44656a;padding-top:11px;width:100%;flex-direction:row!important;align-items:center}.rewards-highlight .reward-36 strong{font-size:2.1rem}.rewards-highlight .reward-36 span{margin-left:10px}}
