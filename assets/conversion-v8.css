@@ -62,7 +62,11 @@
 .vnd-equiv {display:block; font-size:clamp(.9rem,1.2vw,1.05rem);color:inherit;opacity:.75;font-weight:600;margin-top:3px;white-space:normal;}
 .full-side .vnd-equiv{text-align:center;margin:2px 0 13px;}
 .fx-price-note{font-size:.77rem;color:#425960;margin:-8px 0 34px;line-height:1.55;}
-.partner-eligibility{margin:11px 0 0;color:#c9d9d7;font-size:.89rem;line-height:1.6;}
+/* V9.1: keep eligibility readable and near the start of the partner introduction. */
+.eligibility-banner{display:flex;align-items:flex-start;gap:12px;margin:24px 0 0;padding:16px 20px;border-radius:10px;background:#133d34;color:#f0ffe9;border:1px solid #3f8064;box-shadow:0 8px 26px rgba(10,40,28,.09);font-size:clamp(.93rem,1.25vw,1.06rem);line-height:1.55}
+.eligibility-banner strong{font-weight:800}
+.eligibility-check{flex:none;display:grid;place-items:center;border-radius:999px;background:#c8f6a5;color:#143e2b;width:24px;height:24px;font-size:.85rem;font-weight:900;margin-top:1px}
+@media(max-width:760px){.eligibility-banner{margin-top:17px;padding:14px 13px;gap:10px;font-size:.88rem}.eligibility-check{width:22px;height:22px}}
 @media(max-width:760px) {
  .hero-inner{padding:32px 0 33px;}
  .hero h1{font-size:clamp(1.55rem,7vw,2.2rem);line-height:1.12;}
